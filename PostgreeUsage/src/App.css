@@ -1,0 +1,28 @@
+.app {
+  max-width: 1280px;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main {
+  height: calc(100vh - 100px);
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (width: 560px) {
+  
+}
